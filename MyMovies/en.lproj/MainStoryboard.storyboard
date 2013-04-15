@@ -1,245 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
     </dependencies>
     <scenes>
-        <!--My Movies View Controller-->
+        <!--class Prefix:identifier View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="MyMoviesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="My Movies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goG-rL-Wh8">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ooy-aD-IvE">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="29g-4O-jns"/>
-                                    <constraint firstAttribute="width" constant="165" id="Uv9-qA-jH5"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="trailer1.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="tYV-Xy-Lhj" kind="modal" id="5b1-V1-1oI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUd-e9-nRh">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="165" id="e4M-df-00N"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="trailer2.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="TOf-Ae-MjY" kind="modal" id="Kn6-3E-NHC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aO-BT-8RO">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="165" id="Myk-XZ-qb6"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="trailer3.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="20x-de-p92" kind="modal" id="3Nb-1P-AF2"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="nUd-e9-nRh" firstAttribute="top" secondItem="6aO-BT-8RO" secondAttribute="top" type="default" id="A5a-tA-0E2"/>
-                            <constraint firstAttribute="bottom" secondItem="nUd-e9-nRh" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="CEr-CY-uKX"/>
-                            <constraint firstItem="nUd-e9-nRh" firstAttribute="top" secondItem="Ooy-aD-IvE" secondAttribute="top" type="default" id="Il8-jF-poQ"/>
-                            <constraint firstAttribute="bottom" secondItem="6aO-BT-8RO" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="T1N-gL-XJv"/>
-                            <constraint firstAttribute="bottom" secondItem="Ooy-aD-IvE" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Uno-Lm-LSN"/>
-                            <constraint firstAttribute="trailing" secondItem="6aO-BT-8RO" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Yaq-gB-sci"/>
-                            <constraint firstItem="Ooy-aD-IvE" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="aWj-SH-ytx"/>
-                            <constraint firstItem="nUd-e9-nRh" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="h3o-PF-ZnE"/>
-                            <constraint firstItem="nUd-e9-nRh" firstAttribute="centerX" secondItem="goG-rL-Wh8" secondAttribute="centerX" type="default" id="p8z-sr-M4o"/>
-                            <constraint firstItem="goG-rL-Wh8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="7" id="r3M-1n-UpT"/>
-                        </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-572" y="-431"/>
-        </scene>
-        <!--Trailer2 View Controller-->
-        <scene sceneID="4aW-cw-7My">
-            <objects>
-                <viewController id="TOf-Ae-MjY" customClass="trailer2ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DVY-XH-5tl">
-                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kra-qB-w4x">
-                                <items>
-                                    <navigationItem title="G.I. Joe: Retaliation" id="odj-uk-raq">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="G96-k6-9af">
-                                            <connections>
-                                                <segue destination="2" kind="modal" id="QBl-WG-UhK"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="kra-qB-w4x" firstAttribute="top" secondItem="DVY-XH-5tl" secondAttribute="top" type="default" id="SXb-VC-s8J"/>
-                            <constraint firstItem="kra-qB-w4x" firstAttribute="leading" secondItem="DVY-XH-5tl" secondAttribute="leading" type="default" id="coa-P6-rFc"/>
-                            <constraint firstItem="kra-qB-w4x" firstAttribute="trailing" secondItem="DVY-XH-5tl" secondAttribute="trailing" type="default" id="tan-am-Y8l"/>
-                        </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <outlet property="view" destination="DVY-XH-5tl" id="jrK-gF-Ure"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g5M-hk-w6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="67" y="-431"/>
-        </scene>
-        <!--Trailer1 View Controller-->
-        <scene sceneID="euc-pr-Jxd">
-            <objects>
-                <viewController id="tYV-Xy-Lhj" customClass="trailer1ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c8f-nf-0to">
-                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="voh-eV-EBK">
-                                <items>
-                                    <navigationItem title="Fire with Fire" id="I5X-kt-xt7">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Ft7-pM-F8n">
-                                            <connections>
-                                                <segue destination="2" kind="modal" id="jWG-tg-woh"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="voh-eV-EBK" firstAttribute="leading" secondItem="c8f-nf-0to" secondAttribute="leading" type="default" id="ELr-Xn-ZdE"/>
-                            <constraint firstItem="voh-eV-EBK" firstAttribute="top" secondItem="c8f-nf-0to" secondAttribute="top" type="default" id="k9x-fZ-cER"/>
-                            <constraint firstItem="voh-eV-EBK" firstAttribute="trailing" secondItem="c8f-nf-0to" secondAttribute="trailing" type="default" id="tpC-x1-Gm6"/>
-                        </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <outlet property="view" destination="c8f-nf-0to" id="j3z-Cs-qG3"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tY7-oe-nMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-572" y="-15"/>
-        </scene>
-        <!--Trailer3 View Controller-->
-        <scene sceneID="2vN-tB-3Q3">
-            <objects>
-                <viewController id="20x-de-p92" customClass="trailer3ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ryP-SN-5vV">
-                        <rect key="frame" x="0.0" y="20" width="568" height="300"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVe-V4-9jA">
-                                <items>
-                                    <navigationItem title="Parental Guidence" id="7Kb-2v-34Q">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="VgT-70-1uB">
-                                            <connections>
-                                                <segue destination="2" kind="modal" id="pxU-4T-ytH"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="WVe-V4-9jA" firstAttribute="top" secondItem="ryP-SN-5vV" secondAttribute="top" type="default" id="RDQ-3z-wSm"/>
-                            <constraint firstItem="WVe-V4-9jA" firstAttribute="leading" secondItem="ryP-SN-5vV" secondAttribute="leading" type="default" id="jyi-Mn-jGc"/>
-                            <constraint firstItem="WVe-V4-9jA" firstAttribute="trailing" secondItem="ryP-SN-5vV" secondAttribute="trailing" type="default" id="uYi-EJ-BPr"/>
-                        </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <outlet property="view" destination="ryP-SN-5vV" id="uga-WI-kq7"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SDb-24-7sZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="67" y="-15"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="trailer1.png" width="212" height="316"/>
-        <image name="trailer2.png" width="215" height="318"/>
-        <image name="trailer3.png" width="218" height="320"/>
-    </resources>
-    <classes>
-        <class className="MyMoviesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MyMoviesViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="trailer1ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/trailer1ViewController.h"/>
-        </class>
-        <class className="trailer2ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/trailer2ViewController.h"/>
-        </class>
-        <class className="trailer3ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/trailer3ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="jWG-tg-woh"/>
-    </inferredMetricsTieBreakers>
 </document>
