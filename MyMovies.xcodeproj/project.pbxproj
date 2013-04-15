@@ -18,18 +18,6 @@
 		41E6CD70171B9B60007E684C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD6F171B9B60007E684C /* Default-568h@2x.png */; };
 		41E6CD73171B9B60007E684C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD71171B9B60007E684C /* MainStoryboard.storyboard */; };
 		41E6CD76171B9B60007E684C /* MyMoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6CD75171B9B60007E684C /* MyMoviesViewController.m */; };
-		41E6CD82171B9C0C007E684C /* trailer1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD7C171B9C0C007E684C /* trailer1.mp4 */; };
-		41E6CD83171B9C0C007E684C /* trailer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD7D171B9C0C007E684C /* trailer1.png */; };
-		41E6CD84171B9C0C007E684C /* trailer2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD7E171B9C0C007E684C /* trailer2.mp4 */; };
-		41E6CD85171B9C0C007E684C /* trailer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD7F171B9C0C007E684C /* trailer2.png */; };
-		41E6CD86171B9C0C007E684C /* trailer3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD80171B9C0C007E684C /* trailer3.mp4 */; };
-		41E6CD87171B9C0C007E684C /* trailer3.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CD81171B9C0C007E684C /* trailer3.png */; };
-		41E6CD8B171B9DC1007E684C /* trailer1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6CD8A171B9DC1007E684C /* trailer1ViewController.m */; };
-		41E6CD8D171B9F0E007E684C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E6CD8C171B9F0E007E684C /* MediaPlayer.framework */; };
-		41E6CD95171BA867007E684C /* trailer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6CD94171BA867007E684C /* trailer2ViewController.m */; };
-		41E6CD99171BA9B5007E684C /* trailer3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6CD98171BA9B5007E684C /* trailer3ViewController.m */; };
-		41E6CDA1171BADAE007E684C /* 114114.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CDA0171BADAE007E684C /* 114114.png */; };
-		41E6CDA3171BADB5007E684C /* 5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CDA2171BADB5007E684C /* 5757.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,21 +37,6 @@
 		41E6CD72171B9B60007E684C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		41E6CD74171B9B60007E684C /* MyMoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMoviesViewController.h; sourceTree = "<group>"; };
 		41E6CD75171B9B60007E684C /* MyMoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMoviesViewController.m; sourceTree = "<group>"; };
-		41E6CD7C171B9C0C007E684C /* trailer1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer1.mp4; sourceTree = "<group>"; };
-		41E6CD7D171B9C0C007E684C /* trailer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trailer1.png; sourceTree = "<group>"; };
-		41E6CD7E171B9C0C007E684C /* trailer2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer2.mp4; sourceTree = "<group>"; };
-		41E6CD7F171B9C0C007E684C /* trailer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trailer2.png; sourceTree = "<group>"; };
-		41E6CD80171B9C0C007E684C /* trailer3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer3.mp4; sourceTree = "<group>"; };
-		41E6CD81171B9C0C007E684C /* trailer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trailer3.png; sourceTree = "<group>"; };
-		41E6CD89171B9DC1007E684C /* trailer1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailer1ViewController.h; sourceTree = "<group>"; };
-		41E6CD8A171B9DC1007E684C /* trailer1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailer1ViewController.m; sourceTree = "<group>"; };
-		41E6CD8C171B9F0E007E684C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		41E6CD93171BA867007E684C /* trailer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailer2ViewController.h; sourceTree = "<group>"; };
-		41E6CD94171BA867007E684C /* trailer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailer2ViewController.m; sourceTree = "<group>"; };
-		41E6CD97171BA9B5007E684C /* trailer3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailer3ViewController.h; sourceTree = "<group>"; };
-		41E6CD98171BA9B5007E684C /* trailer3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailer3ViewController.m; sourceTree = "<group>"; };
-		41E6CDA0171BADAE007E684C /* 114114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114114.png; sourceTree = "<group>"; };
-		41E6CDA2171BADB5007E684C /* 5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5757.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E6CD8D171B9F0E007E684C /* MediaPlayer.framework in Frameworks */,
 				41E6CD5A171B9B60007E684C /* UIKit.framework in Frameworks */,
 				41E6CD5C171B9B60007E684C /* Foundation.framework in Frameworks */,
 				41E6CD5E171B9B60007E684C /* CoreGraphics.framework in Frameworks */,
@@ -84,12 +56,6 @@
 		41E6CD4D171B9B60007E684C = {
 			isa = PBXGroup;
 			children = (
-				41E6CDA2171BADB5007E684C /* 5757.png */,
-				41E6CDA0171BADAE007E684C /* 114114.png */,
-				41E6CD96171BA99F007E684C /* trailer3 */,
-				41E6CD92171BA803007E684C /* trailer2 */,
-				41E6CD8C171B9F0E007E684C /* MediaPlayer.framework */,
-				41E6CD88171B9D14007E684C /* trailer1 */,
 				41E6CD5F171B9B60007E684C /* MyMovies */,
 				41E6CD58171B9B60007E684C /* Frameworks */,
 				41E6CD57171B9B60007E684C /* Products */,
@@ -132,12 +98,6 @@
 			children = (
 				41E6CD61171B9B60007E684C /* MyMovies-Info.plist */,
 				41E6CD62171B9B60007E684C /* InfoPlist.strings */,
-				41E6CD7C171B9C0C007E684C /* trailer1.mp4 */,
-				41E6CD7D171B9C0C007E684C /* trailer1.png */,
-				41E6CD7E171B9C0C007E684C /* trailer2.mp4 */,
-				41E6CD7F171B9C0C007E684C /* trailer2.png */,
-				41E6CD80171B9C0C007E684C /* trailer3.mp4 */,
-				41E6CD81171B9C0C007E684C /* trailer3.png */,
 				41E6CD65171B9B60007E684C /* main.m */,
 				41E6CD67171B9B60007E684C /* MyMovies-Prefix.pch */,
 				41E6CD6B171B9B60007E684C /* Default.png */,
@@ -145,33 +105,6 @@
 				41E6CD6F171B9B60007E684C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		41E6CD88171B9D14007E684C /* trailer1 */ = {
-			isa = PBXGroup;
-			children = (
-				41E6CD89171B9DC1007E684C /* trailer1ViewController.h */,
-				41E6CD8A171B9DC1007E684C /* trailer1ViewController.m */,
-			);
-			name = trailer1;
-			sourceTree = "<group>";
-		};
-		41E6CD92171BA803007E684C /* trailer2 */ = {
-			isa = PBXGroup;
-			children = (
-				41E6CD93171BA867007E684C /* trailer2ViewController.h */,
-				41E6CD94171BA867007E684C /* trailer2ViewController.m */,
-			);
-			name = trailer2;
-			sourceTree = "<group>";
-		};
-		41E6CD96171BA99F007E684C /* trailer3 */ = {
-			isa = PBXGroup;
-			children = (
-				41E6CD97171BA9B5007E684C /* trailer3ViewController.h */,
-				41E6CD98171BA9B5007E684C /* trailer3ViewController.m */,
-			);
-			name = trailer3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,14 +164,6 @@
 				41E6CD6E171B9B60007E684C /* Default@2x.png in Resources */,
 				41E6CD70171B9B60007E684C /* Default-568h@2x.png in Resources */,
 				41E6CD73171B9B60007E684C /* MainStoryboard.storyboard in Resources */,
-				41E6CD82171B9C0C007E684C /* trailer1.mp4 in Resources */,
-				41E6CD83171B9C0C007E684C /* trailer1.png in Resources */,
-				41E6CD84171B9C0C007E684C /* trailer2.mp4 in Resources */,
-				41E6CD85171B9C0C007E684C /* trailer2.png in Resources */,
-				41E6CD86171B9C0C007E684C /* trailer3.mp4 in Resources */,
-				41E6CD87171B9C0C007E684C /* trailer3.png in Resources */,
-				41E6CDA1171BADAE007E684C /* 114114.png in Resources */,
-				41E6CDA3171BADB5007E684C /* 5757.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,9 +177,6 @@
 				41E6CD66171B9B60007E684C /* main.m in Sources */,
 				41E6CD6A171B9B60007E684C /* MyMoviesAppDelegate.m in Sources */,
 				41E6CD76171B9B60007E684C /* MyMoviesViewController.m in Sources */,
-				41E6CD8B171B9DC1007E684C /* trailer1ViewController.m in Sources */,
-				41E6CD95171BA867007E684C /* trailer2ViewController.m in Sources */,
-				41E6CD99171BA9B5007E684C /* trailer3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
